@@ -9,6 +9,7 @@ function Maindiv() {
         <div className="firstDiv"></div>
         <div className="SecondDiv">
           <Charts />
+          text can be given here
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Highcharts from "highcharts/highstock";
+import "./Bitcoin.css";
 
 class Charts extends React.Component {
   componentDidMount(props) {
