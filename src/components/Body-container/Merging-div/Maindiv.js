@@ -1,6 +1,6 @@
 import React from "react";
 import "./Maindiv.css";
-import Charts from "../../Charts/Bitcoin/Bitcoin1";
+import Charts from "../../Charts/Bitcoin/Bitcoin";
 
 function Maindiv() {
   return (
