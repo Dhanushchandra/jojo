@@ -25,7 +25,6 @@ class Charts extends React.Component {
               }
 
               let newPrice = parseFloat(global.price).toFixed(2);
-              console.log(newPrice);
               let latestPrice = newPrice - newPrice / 100;
 
               var x = new Date().getTime(), // current time
@@ -62,7 +61,7 @@ class Charts extends React.Component {
       },
 
       rangeSelector: {
-        selected: 1,
+        selected: 3,
       },
 
       exporting: {
@@ -71,7 +70,7 @@ class Charts extends React.Component {
 
       series: [
         {
-          name: "Random data",
+          name: "pause",
           data: (function () {
             // generate an array of random data
             var data = [],
@@ -87,7 +86,6 @@ class Charts extends React.Component {
       ],
     });
   }
-
   render() {
     return (
       <div>

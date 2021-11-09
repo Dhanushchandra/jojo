@@ -1,6 +1,8 @@
 import React from "react";
 import "./Maindiv.css";
 import Charts from "../../Charts/Bitcoin/Bitcoin";
+import Water from "../../Water-containers/Water";
+import Bitcoindata from "../../Cryp-Infro/Bitcoindata";
 
 function Maindiv() {
   return (
@@ -9,7 +11,8 @@ function Maindiv() {
         <div className="firstDiv"></div>
         <div className="SecondDiv">
           <Charts />
-          text can be given here
+          <Bitcoindata />
+          <Water />
         </div>
       </div>
     </div>
