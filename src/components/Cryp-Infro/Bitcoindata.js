@@ -37,7 +37,7 @@ function Bitcoindata() {
         <li>1Y highest: $74511</li>
         <li>1Y lowest: $15320</li>
         <li>24 high: $74511</li>
-        <li>24 low: $73521</li>
+        <li>28 low: $73521</li>
         <li id="MarketCap"></li>
       </ul>
     </div>
